@@ -14,7 +14,7 @@ const title = 'Test Facebook API';
 
 export default {
 
-  path: '/Test page',
+  path: '/test',
 
   action() {
     return {
