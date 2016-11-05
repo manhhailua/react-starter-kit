@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "fb.manhpt.com",
+      "script": "./build/server.js",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": 4050,
+        "WEBSITE_HOSTNAME": "fb.manhpt.com"
+      },
+      "env_production": {
+        "NODE_ENV": "production",
+        "PORT": 4050,
+        "WEBSITE_HOSTNAME": "fb.manhpt.com"
+      }
+    }
+  ]
+}
